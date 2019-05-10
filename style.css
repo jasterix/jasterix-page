@@ -1,0 +1,106 @@
+.fa, .fas {
+  font-size: 40px;
+  vertical-align: text-bottom;
+  margin: 0 -5px 0 0;
+}
+
+.hero-image {
+    background-image: url("bannerpic.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    margin: 0 auto;
+    width: 100%
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.profile-pic {
+    height: 100%;
+    margin: 125px 0 0 0;
+    position: relative;
+    z-index: 1;
+    }
+
+#profile-pic {
+    margin: auto;
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    display: block;
+    border: 3px solid white;
+    float: left;
+
+}
+
+h1 {
+    font-size:40px;
+    text-align: left;
+    font-family: 'Major Mono Display', monospace;
+ /*   padding: -5px;
+    line-height: 15px;
+    location: relative;*/
+}
+h2 {
+    font-size:30px;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+/*    padding: 15px;
+    /*line-height: 25px;*/*/
+    location: relative;
+}
+
+h3 {
+    font-size:25px;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    location: relative;
+    /*padding: 10px;*/
+}
+
+li {
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+}
+p {
+    font-size: 20px;
+    display: block;
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+}
+
+
+
+@media (max-width: 500px) {
+h1 {
+font-size: 36px;
+padding: 5px;
+}
+
+h2 {
+    font-size:20px;
+    location: relative;
+}
+
+h3 {
+    font-size:15px;
+    text-align: center;
+    location: relative;
+
+}
+li {
+padding: 5px;
+display: block;
+}
+.card {
+    max-width: 500px;
+
+}
